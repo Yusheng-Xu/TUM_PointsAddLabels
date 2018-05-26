@@ -112,11 +112,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="quick_call.cpp" />
+    <ClCompile Include="point_clouds_IO.cpp" />
+    <ClCompile Include="point_clouds_main.cpp" />
+    <ClCompile Include="point_clouds_addlabels.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="quick_call.h" />
+    <ClInclude Include="point_clouds_addlabels.h" />
+    <ClInclude Include="point_clouds_IO.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

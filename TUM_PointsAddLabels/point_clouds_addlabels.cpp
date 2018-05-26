@@ -9,7 +9,7 @@
 #include<pcl/io/ply_io.h>
 #include<pcl/point_types.h>
 
-#include"quick_call.h"
+#include"point_clouds_addlabels.h"
 
 void
 addPointsLabels(std::string cloud_path, std::string labels_path)
