@@ -1,0 +1,29 @@
+//////////////////////////////////////////////////////////////////////////////// 1
+//  File:	  Task_File_DL.txt  
+//  Author:       Yusheng Xu, TUM_PF (yusheng.xu@tum.de)
+//  Description:  Task file for the point cloud preparation
+//  Modified:     16.04.2018
+//  Copyright (c) 2015-2018  Yusheng Xu (yusheng.xu@tum.de)
+//////////////////////////////////////////////////////////////////////////////// 
+Pre
+//Tasks 9 
+Deep learning data set preparation: convert .pcd to .txt, 16th.April 2018
+
+//Input path 12
+D:\\Data\\Ground Truth_TUM\\Ground Truth\\
+
+//Input name 15
+artefact.pcd
+
+//Output path 18
+D:\\Research\\SV\\Test\\
+
+//Output name 21
+artefact.txt
+
+//Method 24
+0
+
+D:\Research\SV\Test\Task_File_DL.txt
+
+
