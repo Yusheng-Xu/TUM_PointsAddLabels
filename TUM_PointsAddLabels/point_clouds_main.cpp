@@ -40,7 +40,7 @@ int main()
 	std::cout << "" << std::endl;
 	std::cout << "Phtogrammetrie und Fernerkundung,Technische Universitaet Muenchen" << std::endl;
 	std::cout << "" << std::endl;
-	std::cout << "Yusheng Xu, 26, 5, 2018" << std::endl;
+	std::cout << "Yusheng Xu, 29, 5, 2018" << std::endl;
 	pcl::console::print_highlight("\n");
 
 	//Read task->for facilitating the tests with various parameters, all the parameters are input with *.txt task file.
@@ -54,11 +54,18 @@ int main()
 	std::cout << "Objectives: " << input_vector[9] << std::endl;
 	std::cout << "Tasks has been read!\n" << std::endl;
 
-	std::string points_path, label_path;
+	std::string points_path, labels_path, points_name, labels_name, points_pathname, labels_pathname;
 
-	//
+	points_path = input_vector[12];
+	labels_path = input_vector[18];
 
-	addPointsLabels(points_path, label_path);
+	points_name = input_vector[15];
+	labels_name = input_vector[21];
+
+	points_pathname = points_path + points_name;
+	labels_pathname = labels_path + labels_name;
+
+	addPointsLabels(points_pathname, labels_pathname);
 
 	system("pause");
 }
