@@ -1,0 +1,29 @@
+//////////////////////////////////////////////////////////////////////////////// 1
+//  File:	  Task_File_PAL.txt  
+//  Author:       Yusheng Xu, TUM_PF (yusheng.xu@tum.de)
+//  Description:  Task file for adding labels to the point cloud
+//  Modified:     29.05.2018
+//  Copyright (c) 2015-2018  Yusheng Xu (yusheng.xu@tum.de)
+//////////////////////////////////////////////////////////////////////////////// 
+Pre
+//Tasks 9 
+Data set preparation: combine .label file with .pcd file, 29th Mai 2018
+
+//Points file path 12
+D:\\Research\\SV\\Test\\
+
+//Points file name 15
+.pcd
+
+//Labels file path 18
+D:\\Research\\SV\\Test\\
+
+//Labels file name 21
+.pcd
+
+//Method 24
+0
+
+D:\Research\SV\Test\Task_File_PAL.txt
+
+
